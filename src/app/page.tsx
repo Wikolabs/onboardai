@@ -16,13 +16,14 @@ export default function Home() {
         <span style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "1.4rem", color: "#0891b2" }}>
           OnboardAI
         </span>
-        <a
-          href="mailto:hello@wikolabs.com?subject=OnboardAI — Demande de démo"
-          className="px-4 py-2 rounded-full text-white text-sm font-bold"
-          style={{ background: "#0891b2" }}
-        >
-          Démo gratuite
-        </a>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-full text-white text-sm font-bold" style={{ background: "#0891b2" }}>
+            📅 Réserver un créneau →
+          </a>
+          <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20OnboardAI%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="px-4 py-2 rounded-full text-white text-sm font-bold" style={{ background: "#25d366", borderColor: "#25d366" }}>
+            💬 WhatsApp →
+          </a>
+        </div>
       </nav>
 
       {/* Hero */}
@@ -44,13 +45,14 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <a
-          href="mailto:hello@wikolabs.com?subject=OnboardAI — Demande de démo"
-          className="inline-block px-8 py-4 rounded-full text-white font-bold text-lg shadow-md"
-          style={{ background: "#0891b2" }}
-        >
-          Voir OnboardAI en action →
-        </a>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 rounded-full text-white font-bold text-lg shadow-md" style={{ background: "#0891b2" }}>
+            📅 Réserver un créneau →
+          </a>
+          <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20OnboardAI%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 rounded-full text-white font-bold text-lg shadow-md" style={{ background: "#25d366", borderColor: "#25d366" }}>
+            💬 WhatsApp →
+          </a>
+        </div>
       </section>
 
       {/* Progress Tracker Mockup */}
@@ -132,29 +134,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Testimonial */}
-      <section className="max-w-2xl mx-auto px-6 py-16 text-center">
-        <div className="bg-white rounded-2xl p-8 border border-cyan-100 shadow-sm">
-          <p className="text-lg leading-relaxed mb-4" style={{ color: "#0e7490" }}>
-            &ldquo;Notre taux d'activation J7 est passé de 34% à 81% en 6 semaines. Le churn J30 a été divisé par 3. OnboardAI est devenu notre meilleur CSM.&rdquo;
-          </p>
-          <div className="font-semibold text-cyan-700">Julie P. — Head of Customer Success, SaaS B2B</div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-16 text-center" style={{ background: "linear-gradient(135deg, #0891b2, #0284c7)" }}>
         <h2 style={{ fontFamily: "var(--font-display)", fontWeight: 800, fontSize: "2rem", color: "white" }} className="mb-3">
           Divisez votre churn par 3 dès ce mois-ci.
         </h2>
         <p className="text-cyan-100 mb-8">Setup en 2 jours. Résultats mesurables en 30 jours.</p>
-        <a
-          href="mailto:hello@wikolabs.com?subject=OnboardAI — Demande de démo"
-          className="inline-block px-8 py-4 rounded-full font-bold text-lg shadow-lg"
-          style={{ background: "white", color: "#0891b2" }}
-        >
-          Démarrer gratuitement
-        </a>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center", flexWrap: "wrap" }}>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 rounded-full font-bold text-lg shadow-lg" style={{ background: "white", color: "#0891b2" }}>
+            📅 Réserver un créneau →
+          </a>
+          <a href="https://wa.me/261386626100?text=Bonjour%2C%20je%20souhaite%20discuter%20de%20OnboardAI%20avec%20Wikolabs." target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 rounded-full font-bold text-lg shadow-lg" style={{ background: "#25d366", borderColor: "#25d366" }}>
+            💬 WhatsApp →
+          </a>
+        </div>
       </section>
 
       <footer className="text-center py-6 text-sm bg-white border-t border-cyan-50" style={{ color: "#0891b2" }}>
