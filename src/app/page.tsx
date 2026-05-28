@@ -1,4 +1,4 @@
-const users = [
+﻿const users = [
   { name: "Alice R.", step: 5, pct: 100, color: "#0891b2" },
   { name: "Benoit K.", step: 4, pct: 78, color: "#0891b2" },
   { name: "Clara M.", step: 3, pct: 52, color: "#0e7490" },
@@ -151,7 +151,14 @@ export default function Home() {
       </section>
 
       <footer className="text-center py-6 text-sm bg-white border-t border-cyan-50" style={{ color: "#0891b2" }}>
-        &copy; 2025 OnboardAI — Un produit Wikolabs
+        <p>&copy; 2025 OnboardAI &mdash; Un produit Wikolabs</p>
+        <div className="flex flex-wrap justify-center gap-4 mt-2 text-xs" style={{ color: "#0891b2" }}>
+          <a href="mailto:team@wikolabs.com" style={{ color: "#0891b2", textDecoration: "none" }} className="hover:opacity-70 transition-opacity">team@wikolabs.com</a>
+          <span>·</span>
+          <a href="tel:+261386626100" style={{ color: "#0891b2", textDecoration: "none" }} className="hover:opacity-70 transition-opacity">+261 38 66 261 00</a>
+          <span>·</span>
+          <a href="https://calendly.com/wikolabs" target="_blank" rel="noopener noreferrer" style={{ color: "#0891b2", textDecoration: "none" }} className="hover:opacity-70 transition-opacity">Prendre RDV</a>
+        </div>
       </footer>
     </main>
   );
